@@ -1,0 +1,35 @@
+.nav-link {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.nav-link:hover {
+    border-color: burlywood;
+}
+
+.active{
+    border-bottom: 1px solid burlywood;
+
+}
+
+.fw-bolder{
+    text-decoration: underline;
+}
+
+
+@keyframes title-move {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px); color: brown;}
+}
+
+.title{
+    animation: title-move 1s linear alternate infinite;
+}
+
+.card{
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.568);
+    transition: all 1s;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
